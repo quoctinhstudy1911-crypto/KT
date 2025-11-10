@@ -19,8 +19,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./              # thư mục code của bạn
-          server-dir: /www.QuocTinh.somee.com/ # thư mục web trên host Somee
+          local-dir: ./website
+          server-dir: /www.QuocTinh.somee.com/website/
           exclude: |
             .git*
             .github*
