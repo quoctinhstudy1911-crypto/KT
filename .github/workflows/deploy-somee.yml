@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./                          # ✅ repo gốc (nơi có index.html)
-          server-dir: /www.QuocTinh.somee.com/website/   # ✅ upload vào thư mục website
+          server-dir: /www.QuocTinh.somee.com/   # ✅ upload vào thư mục website
           exclude: |
             .git*
             .github*
